@@ -13,14 +13,14 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
+          <li class="header__links-list-item header__links-list-item_no-bullit header__link_active">
             <a class="header__link">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__links-list" href="#0">посмотреть лоты</a>
+            <a class="header__links-list" href="#lots">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__links-list" href="#0">об аукционе</a>
+            <a class="header__links-list" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -31,7 +31,7 @@
           alt="логотип проекта"
         />
       </a>
-      <address class="header__address">
+      <address class="address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -54,17 +54,17 @@
           <span class="aligned-text_right"
             ><span class="letter-spacing-extended">н</span
             ><span class="no-letter-spacing">ад</span
-            ><span class="no-letter-spacing">о</span>
+            ><span>о</span>
           </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -119,7 +119,7 @@
         </ul>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__logo">
           <img
             class="about__logo-image"
@@ -148,7 +148,7 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="address">
+      <address class="footer__address address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <br />
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
@@ -160,10 +160,10 @@
             <a class="footer__menu-link">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
+            <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#0">об аукционе</a>
+            <a class="footer__menu-link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
